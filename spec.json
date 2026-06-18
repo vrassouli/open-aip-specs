@@ -40,7 +40,8 @@
               }
             }
           }
-        }
+        },
+        "operationId": "listActivities"
       },
       "post": {
         "tags": [
@@ -86,7 +87,8 @@
               }
             }
           }
-        }
+        },
+        "operationId": "createActivity"
       }
     },
     "/api/v1/Activities/{id}": {
@@ -126,7 +128,8 @@
               }
             }
           }
-        }
+        },
+        "operationId": "getActivityById"
       },
       "put": {
         "tags": [
@@ -183,7 +186,8 @@
               }
             }
           }
-        }
+        },
+        "operationId": "updateActivity"
       },
       "delete": {
         "tags": [
@@ -204,7 +208,8 @@
           "200": {
             "description": "Success"
           }
-        }
+        },
+        "operationId": "deleteActivity"
       }
     },
     "/api/v1/Authors": {
@@ -242,7 +247,8 @@
               }
             }
           }
-        }
+        },
+        "operationId": "listAuthors"
       },
       "post": {
         "tags": [
@@ -288,7 +294,8 @@
               }
             }
           }
-        }
+        },
+        "operationId": "createAuthor"
       }
     },
     "/api/v1/Authors/authors/books/{idBook}": {
@@ -337,7 +344,8 @@
               }
             }
           }
-        }
+        },
+        "operationId": "getAuthorById"
       }
     },
     "/api/v1/Authors/{id}": {
@@ -377,7 +385,8 @@
               }
             }
           }
-        }
+        },
+        "operationId": "getAuthorById"
       },
       "put": {
         "tags": [
@@ -434,7 +443,8 @@
               }
             }
           }
-        }
+        },
+        "operationId": "updateAuthor"
       },
       "delete": {
         "tags": [
@@ -455,7 +465,8 @@
           "200": {
             "description": "Success"
           }
-        }
+        },
+        "operationId": "deleteAuthor"
       }
     },
     "/api/v1/Books": {
@@ -493,7 +504,8 @@
               }
             }
           }
-        }
+        },
+        "operationId": "listBooks"
       },
       "post": {
         "tags": [
@@ -522,7 +534,8 @@
           "200": {
             "description": "Success"
           }
-        }
+        },
+        "operationId": "createBook"
       }
     },
     "/api/v1/Books/{id}": {
@@ -562,7 +575,8 @@
               }
             }
           }
-        }
+        },
+        "operationId": "getBookById"
       },
       "put": {
         "tags": [
@@ -602,7 +616,8 @@
           "200": {
             "description": "Success"
           }
-        }
+        },
+        "operationId": "updateBook"
       },
       "delete": {
         "tags": [
@@ -623,7 +638,8 @@
           "200": {
             "description": "Success"
           }
-        }
+        },
+        "operationId": "deleteBook"
       }
     },
     "/api/v1/CoverPhotos": {
@@ -661,7 +677,8 @@
               }
             }
           }
-        }
+        },
+        "operationId": "listCoverPhotos"
       },
       "post": {
         "tags": [
@@ -707,7 +724,8 @@
               }
             }
           }
-        }
+        },
+        "operationId": "createCoverPhoto"
       }
     },
     "/api/v1/CoverPhotos/books/covers/{idBook}": {
@@ -756,7 +774,8 @@
               }
             }
           }
-        }
+        },
+        "operationId": "getCoverPhotoById"
       }
     },
     "/api/v1/CoverPhotos/{id}": {
@@ -796,7 +815,8 @@
               }
             }
           }
-        }
+        },
+        "operationId": "getCoverPhotoById"
       },
       "put": {
         "tags": [
@@ -853,7 +873,8 @@
               }
             }
           }
-        }
+        },
+        "operationId": "updateCoverPhoto"
       },
       "delete": {
         "tags": [
@@ -874,7 +895,8 @@
           "200": {
             "description": "Success"
           }
-        }
+        },
+        "operationId": "deleteCoverPhoto"
       }
     },
     "/api/v1/Users": {
@@ -912,7 +934,8 @@
               }
             }
           }
-        }
+        },
+        "operationId": "listUsers"
       },
       "post": {
         "tags": [
@@ -941,7 +964,8 @@
           "200": {
             "description": "Success"
           }
-        }
+        },
+        "operationId": "createUser"
       }
     },
     "/api/v1/Users/{id}": {
@@ -964,7 +988,8 @@
           "200": {
             "description": "Success"
           }
-        }
+        },
+        "operationId": "getUserById"
       },
       "put": {
         "tags": [
@@ -1004,7 +1029,8 @@
           "200": {
             "description": "Success"
           }
-        }
+        },
+        "operationId": "updateUser"
       },
       "delete": {
         "tags": [
@@ -1025,7 +1051,8 @@
           "200": {
             "description": "Success"
           }
-        }
+        },
+        "operationId": "deleteUser"
       }
     }
   },
